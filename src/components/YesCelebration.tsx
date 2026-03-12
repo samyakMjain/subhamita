@@ -57,10 +57,10 @@ function YesCelebration() {
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-7xl font-dancing text-rose-600 mb-4 md:mb-6 animate-scale-in">
-          You just made me
+          You made the
         </h1>
         <h2 className="text-2xl sm:text-3xl md:text-6xl font-dancing text-rose-700 mb-5 md:mb-8 animate-scale-in-delay">
-          the happiest person alive ❤️
+          very right decision ❤️
         </h2>
 
         <div className="text-4xl md:text-7xl mb-5 md:mb-8 animate-float">
@@ -73,7 +73,7 @@ function YesCelebration() {
 
         <div className="mt-8 md:mt-12 p-4 md:p-6 bg-white/80 backdrop-blur rounded-2xl shadow-xl animate-fade-in-delay-4">
           <p className="text-base md:text-lg text-gray-600 font-poppins">
-            Get ready for something special... ✨
+            Wait for me to come baby 😘 We will meet soon... ✨
           </p>
         </div>
 
