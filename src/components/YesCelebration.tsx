@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import kissGif from '../gif/kiss.gif';
+import kissGif from '../Gif/kiss.gif';
 
 function YesCelebration() {
   const [emailSent, setEmailSent] = useState(false);
