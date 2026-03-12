@@ -15,7 +15,7 @@ function GalleryPage({ onNext }: GalleryPageProps) {
     { caption: 'Our beautiful kissi 😘✨', image: kissiImg },
     { caption: 'Meri Hariyali 💕', image: greenImg },
     { caption: 'Every moment with you feels like diwali,\nmy fuljhadi 🌸', image: fuljhadiImg },
-    { caption: 'You make life beautiful and warm, My Hottieee ❤️‍🔥🥵', image: toppicImg },
+    { caption: 'You make life beautiful and warm, \nMy Hottieee ❤️‍🔥🥵', image: toppicImg },
     { caption: 'My Queen 💖', image: sareepicImg },
   ];
 
