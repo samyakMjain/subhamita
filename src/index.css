@@ -5,8 +5,11 @@
 @tailwind utilities;
 
 @layer base {
-  body {
+  html, body, #root {
     font-family: 'Poppins', sans-serif;
+    min-height: 100dvh;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
   }
 }
 
@@ -20,8 +23,8 @@
   }
 
   .card-container {
-    width: 350px;
-    height: 500px;
+    width: min(85vw, 350px);
+    height: min(70vh, 500px);
     perspective: 1000px;
     cursor: pointer;
   }
