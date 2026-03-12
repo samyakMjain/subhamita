@@ -1,33 +1,22 @@
+import hasiImg from '../Pic/hasi.jpg';
+import kissiImg from '../Pic/kissi.jpg';
+import greenImg from '../Pic/green.jpg';
+import fuljhadiImg from '../Pic/fuljhadi.jpg';
+import toppicImg from '../Pic/toppic.jpg';
+import sareepicImg from '../Pic/sareepic.jpg';
+
 interface GalleryPageProps {
   onNext: () => void;
 }
 
 function GalleryPage({ onNext }: GalleryPageProps) {
   const memories = [
-    {
-      caption: 'My favorite smile ❤️',
-      color: 'from-pink-300 to-rose-300',
-    },
-    {
-      caption: 'Our beautiful moment ✨',
-      color: 'from-purple-300 to-pink-300',
-    },
-    {
-      caption: 'Forever my favorite person 💕',
-      color: 'from-rose-300 to-pink-400',
-    },
-    {
-      caption: 'Every moment with you 🌸',
-      color: 'from-pink-200 to-purple-200',
-    },
-    {
-      caption: 'You make life beautiful 🦋',
-      color: 'from-rose-200 to-pink-300',
-    },
-    {
-      caption: 'My everything 💖',
-      color: 'from-purple-200 to-rose-200',
-    },
+    { caption: 'My favorite smile ❤️', image: hasiImg },
+    { caption: 'Our beautiful moment ✨', image: kissiImg },
+    { caption: 'Forever my favorite person 💕', image: greenImg },
+    { caption: 'Every moment with you 🌸', image: fuljhadiImg },
+    { caption: 'You make life beautiful 🦋', image: toppicImg },
+    { caption: 'My everything 💖', image: sareepicImg },
   ];
 
   return (
@@ -44,16 +33,16 @@ function GalleryPage({ onNext }: GalleryPageProps) {
               className="gallery-item group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className={`aspect-square rounded-xl md:rounded-2xl bg-gradient-to-br ${memory.color} shadow-lg overflow-hidden transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl`}>
-                <div className="w-full h-full flex items-center justify-center p-3 md:p-6">
-                  <div className="text-center">
-                    <div className="text-3xl md:text-6xl mb-2 md:mb-4">
-                      {index === 0 ? '😊' : index === 1 ? '✨' : index === 2 ? '💕' : index === 3 ? '🌸' : index === 4 ? '🦋' : '💖'}
-                    </div>
-                    <p className="text-white text-xs md:text-xl font-poppins font-semibold">
-                      {memory.caption}
-                    </p>
-                  </div>
+              <div className="aspect-square rounded-xl md:rounded-2xl shadow-lg overflow-hidden transform transition-all duration-500 group-hover:scale-105 group-hover:shadow-2xl relative">
+                <img
+                  src={memory.image}
+                  alt={memory.caption}
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end">
+                  <p className="text-white text-xs md:text-lg font-poppins font-semibold p-2 md:p-4 w-full text-center">
+                    {memory.caption}
+                  </p>
                 </div>
               </div>
             </div>

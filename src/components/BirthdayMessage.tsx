@@ -27,7 +27,7 @@ function BirthdayMessage({ onNext }: BirthdayMessageProps) {
             You make every moment magical, every day worth living.
           </p>
           <p className="animate-fade-in-delay-6 text-rose-600 font-semibold">
-            I'm so grateful that you came in my life...
+            I'm so grateful that you came in my life...            My Bengali Angel
           </p>
         </div>
 
