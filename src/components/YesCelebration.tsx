@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import kissGif from '../gif/kiss.gif';
 
 function YesCelebration() {
   const [emailSent, setEmailSent] = useState(false);
@@ -52,8 +53,12 @@ function YesCelebration() {
       <div id="confetti-container" className="fixed inset-0 pointer-events-none z-50"></div>
 
       <div className="max-w-3xl text-center celebration-content z-10">
-        <div className="text-6xl md:text-9xl mb-5 md:mb-8 animate-bounce-big">
-          🎉
+        <div className="mb-5 md:mb-8 animate-scale-in">
+          <img
+            src={kissGif}
+            alt="Celebration"
+            className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover mx-auto shadow-xl"
+          />
         </div>
 
         <h1 className="text-3xl sm:text-4xl md:text-7xl font-dancing text-rose-600 mb-4 md:mb-6 animate-scale-in">
