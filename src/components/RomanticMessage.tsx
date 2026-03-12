@@ -13,13 +13,13 @@ function RomanticMessage({ onNext }: RomanticMessageProps) {
             Being with you is my favorite place in the world.
           </p>
           <p className="animate-fade-in-delay-2">
-            Every moment we share becomes a cherished memory.
+            Every moment we shared become a cherished memory.
           </p>
           <p className="animate-fade-in-delay-3 text-rose-600 font-semibold">
-            And I don't just want to celebrate your birthday...
+            And Please keep on Smiling and laughing always...
           </p>
           <p className="animate-fade-in-delay-4 text-lg md:text-3xl text-rose-700 font-semibold">
-            I want to create another beautiful memory with you.
+            My Bubu 🫶🏻😘
           </p>
         </div>
 
@@ -27,7 +27,7 @@ function RomanticMessage({ onNext }: RomanticMessageProps) {
           onClick={onNext}
           className="mt-8 md:mt-12 px-6 py-3 md:px-10 md:py-5 bg-gradient-to-r from-rose-500 to-pink-600 text-white rounded-full text-lg md:text-xl font-poppins shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 glow-button animate-fade-in-delay-5"
         >
-          One More Thing... 💗
+          And Bubu One More Thing... 💗
         </button>
       </div>
     </div>
