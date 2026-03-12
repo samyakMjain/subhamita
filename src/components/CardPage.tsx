@@ -40,7 +40,7 @@ function CardPage({ onNext }: CardPageProps) {
                 Very Special ✨
               </h2>
               <p className="text-rose-400 mt-3 md:mt-4 text-base md:text-lg">
-                My Subu Baby 🥰❤️
+                 My Subu Baby 🥰❤️
               </p>
               <p className="text-rose-400 mt-3 md:mt-4 text-sm md:text-base animate-bounce">
                 👆 Please Click here 👆

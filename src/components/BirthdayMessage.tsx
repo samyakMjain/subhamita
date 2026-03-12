@@ -18,16 +18,16 @@ function BirthdayMessage({ onNext }: BirthdayMessageProps) {
             Every smile of yours makes my world brighter.
           </p>
           <p className="animate-fade-in-delay-3">
-            Today is all about celebrating YOU.
+            And
           </p>
           <p className="animate-fade-in-delay-4">
-            Your presence in my life is the greatest gift I could ever ask for.
+            Today is your Birthday babyyyyy girl. <br/> Bahot Sara Cake Khana....
           </p>
           <p className="animate-fade-in-delay-5">
-            You make every moment magical, every day worth living.
+            Lots of Kisses from me babyy 😘😘😘
           </p>
           <p className="animate-fade-in-delay-6 text-rose-600 font-semibold">
-            I'm so grateful that you came in my life...            My Bengali Angel
+            I'm so grateful that you came in my life... <br/> My Bengali Angel 🦋🦋
           </p>
         </div>
 

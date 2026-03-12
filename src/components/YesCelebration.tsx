@@ -78,7 +78,7 @@ function YesCelebration() {
 
         <div className="mt-8 md:mt-12 p-4 md:p-6 bg-white/80 backdrop-blur rounded-2xl shadow-xl animate-fade-in-delay-4">
           <p className="text-base md:text-lg text-gray-600 font-poppins">
-            Wait for me to come baby 😘 We will meet soon... ✨
+            Wait for me to come baby 😘 <br/> We will meet soon... ✨
           </p>
         </div>
 
