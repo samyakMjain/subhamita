@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/loveweb/' : '/',
+  base: mode === 'production' ? '/subhamita/' : '/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
